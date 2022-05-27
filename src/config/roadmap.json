@@ -1,0 +1,298 @@
+[
+  {
+    "label": "网络基础",
+    "value": "internet",
+    "children": [
+      {
+        "label": "HTTP",
+        "value": "HTTP"
+      },
+      {
+        "label": "DNS",
+        "value": "DNS"
+      },
+      {
+        "label": "网络安全",
+        "value": "web_security_knowledge"
+      }
+    ]
+  },
+  {
+    "label": "语言基础",
+    "value": "language",
+    "children": [
+      {
+        "label": "HTML",
+        "value": "HTML"
+      },
+      {
+        "label": "CSS",
+        "value": "CSS"
+      },
+      {
+        "label": "Javascript",
+        "value": "Javascript"
+      }
+    ]
+  },
+  {
+    "label": "JS 库",
+    "value": "JS_library",
+    "children": [
+      {
+        "label": "React",
+        "value": "React"
+      },
+      {
+        "label": "Vue",
+        "value": "Vue"
+      },
+      {
+        "label": "Angular",
+        "value": "Angular"
+      }
+    ]
+  },
+  {
+    "label": "CSS 组件库",
+    "value": "CSS_library",
+    "children": [
+      {
+        "label": "ant-design",
+        "value": "antd"
+      },
+      {
+        "label": "material-ui",
+        "value": "material"
+      },
+      {
+        "label": "arco-design",
+        "value": "arco-design"
+      },
+      {
+        "label": "element-ui",
+        "value": "element-ui"
+      },
+      {
+        "label": "tailwindcss",
+        "value": "tailwindcss"
+      }
+    ]
+  },
+  {
+    "label": "状态管理",
+    "value": "state",
+    "children": [
+      {
+        "label": "Redux",
+        "value": "Redux"
+      },
+      {
+        "label": "Mobx",
+        "value": "Mobx"
+      },
+      {
+        "label": "Recoil",
+        "value": "Recoil"
+      },
+      {
+        "label": "RxJS",
+        "value": "RxJS"
+      },
+      {
+        "label": "VueX",
+        "value": "VueX"
+      }
+    ]
+  },
+  {
+    "label": "语义增强",
+    "value": "language2",
+    "children": [
+      {
+        "label": "Typescript",
+        "value": "Typescript"
+      },
+      {
+        "label": "Sass",
+        "value": "Sass"
+      },
+      {
+        "label": "Less",
+        "value": "Less"
+      },
+      {
+        "label": "PostCSS",
+        "value": "PostCSS"
+      }
+    ]
+  },
+  {
+    "label": "代码管理",
+    "value": "version_control_systems",
+    "children": [
+      {
+        "label": "Git",
+        "value": "Git"
+      },
+      {
+        "label": "npm",
+        "value": "npm"
+      },
+      {
+        "label": "yarn",
+        "value": "yarn"
+      },
+      {
+        "label": "GitHub",
+        "value": "GitHub"
+      },
+      {
+        "label": "GitLab",
+        "value": "GitLab"
+      }
+    ]
+  },
+  {
+    "label": "构建工具",
+    "value": "build_tools",
+    "children": [
+      {
+        "label": "Webpack",
+        "value": "Webpack"
+      },
+      {
+        "label": "esbuild",
+        "value": "esbuild"
+      },
+      {
+        "label": "Rollup",
+        "value": "Rollup"
+      },
+      {
+        "label": "Parcel",
+        "value": "Parcel"
+      },
+      {
+        "label": "Vite",
+        "value": "Vite"
+      }
+    ]
+  },
+  {
+    "label": "测试套件",
+    "value": "test",
+    "children": [
+      {
+        "label": "Jest",
+        "value": "Jest"
+      },
+      {
+        "label": "esbuild",
+        "value": "esbuild"
+      },
+      {
+        "label": "Rollup",
+        "value": "Rollup"
+      },
+      {
+        "label": "Parcel",
+        "value": "Parcel"
+      },
+      {
+        "label": "Vite",
+        "value": "Vite"
+      }
+    ]
+  },
+  {
+    "label": "移动应用",
+    "value": "mobile_application",
+    "children": [
+      {
+        "label": "ReactNative",
+        "value": "ReactNative"
+      },
+      {
+        "label": "Flutter",
+        "value": "Flutter"
+      },
+      {
+        "label": "小程序",
+        "value": "mini_app"
+      }
+    ]
+  },
+  {
+    "label": "桌面应用",
+    "value": "desk_application",
+    "children": [
+      {
+        "label": "Electron",
+        "value": "Electron"
+      },
+      {
+        "label": "PWA",
+        "value": "PWA"
+      }
+    ]
+  },
+  {
+    "label": "服务端",
+    "value": "back_end",
+    "children": [
+      {
+        "label": "Node",
+        "value": "Node"
+      },
+      {
+        "label": "SQL",
+        "value": "SQL"
+      },
+      {
+        "label": "Java",
+        "value": "Java"
+      },
+      {
+        "label": "Redis",
+        "value": "Redis"
+      }
+    ]
+  },
+  {
+    "label": "运维",
+    "value": "op",
+    "children": [
+      {
+        "label": "Nginx",
+        "value": "Nginx"
+      },
+      {
+        "label": "Docker",
+        "value": "Docker"
+      },
+      {
+        "label": "K8S",
+        "value": "K8S"
+      }
+    ]
+  },
+  {
+    "label": "其他",
+    "value": "other",
+    "children": [
+      {
+        "label": "WebAssembly",
+        "value": "WebAssembly"
+      },
+      {
+        "label": "人生感悟",
+        "value": "inspiration"
+      },
+      {
+        "label": "杂谈",
+        "value": "unknown"
+      }
+    ]
+  }
+]
