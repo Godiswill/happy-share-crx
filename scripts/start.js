@@ -78,6 +78,7 @@ checkBrowsers(paths.appPath, isInteractive)
       // We have not found a port.
       return;
     }
+    fs.rmdirSync(paths.appBuild, { recursive: true, force: true });
     process.env.REACT_APP__HOST__ = HOST;
     process.env.REACT_APP__PORT__ = port;
     const config = configFactory('development');
