@@ -31,7 +31,7 @@ function Popup() {
                         {devData.map((it) => (
                             <div
                                 key={it.key}
-                                onClick={() => window.open(chrome.extension.getURL('develop.html'))}
+                                onClick={() => window.open(chrome.runtime.getURL('develop.html'))}
                             >
                                 <img src={it.icon} alt="icon" />
                                 {it.title}
