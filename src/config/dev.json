@@ -194,6 +194,12 @@
             "icon": "https://www.electronjs.org/assets/img/logo.svg",
             "title": "Electron.js",
             "desc": "Web 方式开发跨平台桌面应用"
+          },
+          {
+            "url": "https://electron-react-boilerplate.js.org",
+            "icon": "https://electron-react-boilerplate.js.org/logo/logo.png",
+            "title": "Electron-React",
+            "desc": "Electron React 开发工程模板"
           }
         ]
       },
@@ -223,6 +229,12 @@
             "icon": "https://element.eleme.io/favicon.ico",
             "title": "Element",
             "desc": "饿了么 - Vue 桌面端组件库"
+          },
+          {
+            "url": "https://vuetifyjs.com/zh-Hans",
+            "icon": "https://vuetifyjs.com/favicon.ico",
+            "title": "Vuetify",
+            "desc": "Material 样式的 Vue UI 组件库"
           },
           {
             "url": "https://nutui.jd.com/#/",
@@ -301,7 +313,7 @@
   },
   {
     "title": "仓库构建",
-    "key": "gjgj",
+    "key": "ckgj",
     "icon": "https://sitecdn.zcycdn.com/zcy-front-other-upload/b18d059d470c2eb55a3ca0993d36ff0f.png",
     "cat": [
       {
@@ -395,7 +407,7 @@
   },
   {
     "title": "字体图表",
-    "key": "xgzy",
+    "key": "zttb",
     "icon": "https://sitecdn.zcycdn.com/zcy-front-other-upload/1f50f37adbe1febc03a446fd78af063a.png",
     "cat": [
       {
@@ -430,6 +442,18 @@
             "icon": "https://img.alicdn.com/imgextra/i2/O1CN01ZyAlrn1MwaMhqz36G_!!6000000001499-73-tps-64-64.ico",
             "title": "IconFont",
             "desc": "在线协作字体图标库开发平台"
+          },
+          {
+            "url": "https://iconscout.com",
+            "icon": "https://iconscout.com/favicon-96x96.png",
+            "title": "IconScout",
+            "desc": "国外在线协作 icon 库开发平台"
+          },
+          {
+            "url": "https://iconpark.oceanengine.com/home",
+            "icon": "https://lf1-cdn2-tos.bytegoofy.com/bydesign/iconparksite/logo.svg",
+            "title": "IconPark",
+            "desc": "字节 - 字体图标库平台"
           },
           {
             "url": "https://colorhunt.co",
@@ -503,6 +527,18 @@
             "desc": "3D 游戏 JS 库"
           },
           {
+            "url": "https://pixijs.com",
+            "icon": "https://pixijs.com/images/favicon.png",
+            "title": "PixiJs",
+            "desc": "轻量快速的 2D WebGL 动画引擎"
+          },
+          {
+            "url": "https://animejs.com",
+            "icon": "https://animejs.com/documentation/assets/img/favicon.png",
+            "title": "Anime.js",
+            "desc": "轻量 animation 动画引擎库"
+          },
+          {
             "url": "https://www.amcharts.com",
             "icon": "https://www.amcharts.com/wp-content/themes/amcharts4/css/img/favicon/favicon.ico",
             "title": "Amcharts",
@@ -513,6 +549,12 @@
             "icon": "http://www.popodv.com/images/favicon.ico",
             "title": "PoPo",
             "desc": "更多请看可视化聚合站点"
+          },
+          {
+            "url": "https://leafletjs.com",
+            "icon": "https://leafletjs.com/docs/images/favicon.ico",
+            "title": "Leaflet.js",
+            "desc": "移动端交互友好的地图库"
           }
         ]
       }
@@ -602,6 +644,12 @@
             "desc": "无头浏览器 Chrome 的 Node 库"
           },
           {
+            "url": "https://playwright.dev",
+            "icon": "https://playwright.dev/img/playwright-logo.svg",
+            "title": "Playwright",
+            "desc": "微软 - 浏览器自动化测试工具"
+          },
+          {
             "url": "https://www.cypress.io",
             "icon": "https://www.cypress.io/icons/icon-48x48.png?v=90213ca87017074111a88470199bc242315d18c5",
             "title": "Cypress",
@@ -613,7 +661,7 @@
   },
   {
     "title": "优秀团队",
-    "key": "sqlt",
+    "key": "yxtd",
     "icon": "https://sitecdn.zcycdn.com/zcy-front-other-upload/f0c2d3a499a1aea69c2ab7c1210da3e8.png",
     "cat": [
       {
@@ -731,6 +779,12 @@
     "cat": [
       {
         "items": [
+          {
+            "url": "https://carbon.now.sh",
+            "icon": "https://carbon.now.sh/favicon.ico",
+            "title": "Carbon",
+            "desc": "代码片段图片分享美化"
+          },
           {
             "url": "https://tinypng.com",
             "icon": "https://sitecdn.zcycdn.com/zcy-front-other-upload/c20ee73101eb735ad86f0ed278f43523.jpg",
@@ -945,6 +999,12 @@
             "desc": "学习不迷路前端进击路线"
           },
           {
+            "url": "https://w3techs.com",
+            "icon": "https://b.w3techs.com/images/327/icon.png",
+            "title": "W3Techs",
+            "desc": "Web 技术调查统计"
+          },
+          {
             "url": "https://es6.ruanyifeng.com",
             "icon": "https://es6.ruanyifeng.com/favicon.ico",
             "title": "ES6 入门教程",
@@ -979,6 +1039,71 @@
             "icon": "https://www.cssplay.co.uk.cach3.com/favicon.ico",
             "title": "CSSplay",
             "desc": "CSS 能力展示老牌站点"
+          }
+        ]
+      },
+      {
+        "title": "Github 资源",
+        "items": [
+          {
+            "url": "https://github.com/justjavac/free-programming-books-zh_CN#javascript",
+            "icon": "https://github.githubassets.com/favicons/favicon.png",
+            "title": "编程资源",
+            "desc": "免费的编程中文书籍索引"
+          },
+          {
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript",
+            "icon": "https://github.githubassets.com/favicons/favicon.png",
+            "title": "clean-code-js",
+            "desc": "JavaScript 整洁之道"
+          },
+          {
+            "url": "https://mbeaudru.github.io/modern-js-cheatsheet",
+            "icon": "https://github.githubassets.com/favicons/favicon.png",
+            "title": "现代 JS 备忘录",
+            "desc": "现代经常遇到的 JS 知识备忘单"
+          },
+          {
+            "url": "https://github.com/leonardomso/33-js-concepts",
+            "icon": "https://github.githubassets.com/favicons/favicon.png",
+            "title": "33-js-concepts",
+            "desc": "前端应该知道的 JS 概念"
+          },
+          {
+            "url": "https://github.com/goldbergyoni/nodebestpractices",
+            "icon": "https://github.githubassets.com/favicons/favicon.png",
+            "title": "Node practices",
+            "desc": "node 最佳实践"
+          },
+          {
+            "url": "https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution",
+            "icon": "https://2483760757-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/spaces%2F-MJeEIvPDza7mczG0t-l%2Favatar-1602734260263.png?generation=1602734260462040&alt=media",
+            "title": "算法通关之路",
+            "desc": "Leetcode 解题之路"
+          },
+          {
+            "url": "https://github.com/mqyqingfeng/Blog",
+            "icon": "https://github.githubassets.com/favicons/favicon.png",
+            "title": "冴羽的博客",
+            "desc": "github 星星多的博客"
+          },
+          {
+            "url": "https://www.frontendinterviewhandbook.com/zh",
+            "icon": "https://www.frontendinterviewhandbook.com/zh/img/favicon.png",
+            "title": "面试手册国际版",
+            "desc": "为繁忙的前端人员准备的面试材料"
+          },
+          {
+            "url": "https://web.qianguyihao.com",
+            "icon": "https://github.githubassets.com/favicons/favicon.png",
+            "title": "千古前端",
+            "desc": "前端基础图文教程"
+          },
+          {
+            "url": "https://github.com/sindresorhus/awesome-nodejs",
+            "icon": "https://github.githubassets.com/favicons/favicon.png",
+            "title": "Awesome Nodejs",
+            "desc": "优质的 Node 源码学习资源包"
           }
         ]
       },
@@ -1198,52 +1323,76 @@
       {
         "items": [
           {
-            "url": "https://wordpress.org/",
-            "icon": "https://sitecdn.zcycdn.com/zcy-front-other-upload/dfc6433ac77139bd5f79f6e5d8158076.png",
+            "url": "https://storybook.js.org",
+            "icon": "https://storybook.js.org/images/logos/icon-storybook.png",
+            "title": "Storybook",
+            "desc": "强大的构建 UI 组件文档工具"
+          },
+          {
+            "url": "https://strapi.io",
+            "icon": "https://strapi.io/assets/favicon-32x32.png",
+            "title": "Strapi",
+            "desc": "开源免费的 API Mock 管理系统"
+          },
+          {
+            "url": "https://wordpress.org",
+            "icon": "https://s.w.org/images/wmark.png",
             "title": "Wordpress",
             "desc": "功能强大的内容管理系统"
           },
           {
-            "url": "http://flarum.org/",
+            "url": "https://flarum.org",
             "icon": "https://sitecdn.zcycdn.com/zcy-front-other-upload/374455b0e307ea1542133cf53208f5a1.png",
             "title": "Flarum",
-            "desc": "优雅简洁漂亮的轻论坛系统"
+            "desc": "免费优雅简洁漂亮的轻论坛系统"
           },
           {
             "url": "https://hexo.io/",
-            "icon": "https://sitecdn.zcycdn.com/zcy-front-other-upload/782df29e530825a86a9df849d73aa6f4.png",
+            "icon": "https://hexo.io/icon/favicon-96x96.png",
             "title": "Hexo",
-            "desc": "比较极客的简洁轻便的博文平台"
+            "desc": "快速、简洁且高效的博客框架"
           },
           {
-            "url": "http://typecho.org/",
-            "icon": "https://sitecdn.zcycdn.com/zcy-front-other-upload/233042298f6965780c49415b28de343a.png",
+            "url": "https://typecho.org",
+            "icon": "https://typecho.org/favicon.ico",
             "title": "Typecho",
             "desc": "轻量级博客程序"
           },
           {
-            "url": "https://pages.github.com/",
-            "icon": "https://sitecdn.zcycdn.com/zcy-front-other-upload/74e982dc11d6d266e134911c57f71ba2.png",
-            "title": "Gitpage",
-            "desc": "Github旗下免费的无限流量博客"
+            "url": "https://pages.github.com",
+            "icon": "https://pages.github.com/favicon.ico",
+            "title": "Github page",
+            "desc": "Github 旗下免费的无限流量博客"
           },
           {
-            "url": "http://jekyllrb.com/",
-            "icon": "https://sitecdn.zcycdn.com/zcy-front-other-upload/6e57b682e3b550d6e83cd2316e6c58f1.png",
+            "url": "https://jekyllrb.com",
+            "icon": "https://jekyllrb.com/favicon.ico",
             "title": "Jekyll",
             "desc": "简单静态网页博客程序"
           },
           {
             "url": "https://ghost.org/",
-            "icon": "https://sitecdn.zcycdn.com/zcy-front-other-upload/4641103bd92e03a6026f9c1e15919d7c.png",
+            "icon": "https://ghost.org/favicon.ico",
             "title": "Ghost",
-            "desc": "Node.js构建的开源博客平台"
+            "desc": "Node.js 构建的开源博客平台"
           },
           {
-            "url": "https://www.wix.com/",
-            "icon": "https://sitecdn.zcycdn.com/zcy-front-other-upload/a2685bd1dab6c3d798b346332be5a361.png",
+            "url": "https://www.wix.com",
+            "icon": "https://www.wix.com/favicon.ico",
             "title": "Wix",
             "desc": "免费的响应式商业化建站方案"
+          },
+          {
+            "url": "https://www.discourse.org/",
+            "icon": "https://www.discourse.org/a/img/favicon.ico",
+            "title": "Discourse",
+            "desc": "搭建属于自己的论坛社区"
+          },
+          {
+            "url": "https://docusaurus.io/",
+            "icon": "https://docusaurus.io/img/docusaurus.png",
+            "title": "Docusaurus",
+            "desc": "FB - 开源文档维护网站"
           }
         ]
       }

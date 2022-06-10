@@ -1,11 +1,11 @@
-// import { useState } from 'react';
+import React from 'react';
 import { Divider, Tabs } from 'antd';
 import devData from '@/config/dev.json';
 import { DevDataType } from '@/types';
 
 const Item = ({ data }: { data: DevDataType['cat'][0]['items'][0] }) => {
     return (
-        <section className="cat-item" key={data.url}>
+        <section className="cat-item">
             <a href={data.url} target="_blank" rel="noreferrer">
                 <h3>
                     <img src={data.icon} alt="logo" />
@@ -27,13 +27,13 @@ const Develop = () => {
                     <Tabs.TabPane tab={d.title} key={d.key}>
                         <h2 className="cat-title">{d.title}</h2>
                         <main className="cat-container">
-                            {d.cat.map((cat) => (
-                                <>
+                            {d.cat.map((cat, index) => (
+                                <React.Fragment key={index}>
                                     {cat.title && <Divider orientation="left">{cat.title}</Divider>}
                                     {cat.items.map((it) => (
-                                        <Item data={it} />
+                                        <Item data={it} key={it.url} />
                                     ))}
-                                </>
+                                </React.Fragment>
                             ))}
                         </main>
                     </Tabs.TabPane>
