@@ -1,6 +1,7 @@
-export * from './DOMMessages';
-export * from './Article';
-export type DevDataType = {
+/// <reference path="./DOMMessages.d.ts" />
+/// <reference path="./Article.d.ts" />
+
+type DevDataType = {
     title: string;
     key: string;
     icon: string;

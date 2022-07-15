@@ -1,7 +1,6 @@
 import React from 'react';
 import { Divider, Tabs } from 'antd';
 import devData from '@/config/dev.json';
-import { DevDataType } from '@/types';
 
 const Item = ({ data }: { data: DevDataType['cat'][0]['items'][0] }) => {
     return (

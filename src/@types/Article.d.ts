@@ -1,4 +1,4 @@
-export type ArticleInfoType = {
+type ArticleInfoType = {
     title: string;
     url: string;
     description: string;

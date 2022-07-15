@@ -1,5 +1,3 @@
-import { MessageEventType, ArticleInfoType } from '@/types';
-
 const getArticleInfo = (): ArticleInfoType => {
     const ogTitle = document.querySelector('meta[property="og:title"]')?.getAttribute('content');
     // const ogUrl = document.querySelector('meta[property="og:url"]')?.getAttribute('content');
@@ -19,6 +17,8 @@ const getArticleInfo = (): ArticleInfoType => {
         image: ogImage || '',
     };
 };
+
+export {};
 
 chrome.runtime.onMessage.addListener(
     (msg: MessageEventType, sender: chrome.runtime.MessageSender, sendResponse) => {

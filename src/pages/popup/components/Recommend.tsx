@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Form, Input, Button, Cascader } from 'antd';
-import { ArticleInfoType } from '@/types';
 import roadmap from '@/config/roadmap.json';
 
 const Recommend: React.FC = () => {
