@@ -208,7 +208,7 @@
         "items": [
           {
             "url": "https://cn.vuejs.org/index.html",
-            "icon": "https://v3.cn.vuejs.org/logo.png",
+            "icon": "https://cn.vuejs.org/logo.svg",
             "title": "Vue.js",
             "desc": "渐进式 JavaScript 框架"
           },
@@ -220,7 +220,7 @@
           },
           {
             "url": "https://v3.nuxtjs.org",
-            "icon": "https://v3.nuxtjs.org/_nuxt/icons/icon_64x64.a3b4ce.png",
+            "icon": "https://nuxt.com/icon.png",
             "title": "Nuxt3",
             "desc": "The Hybrid Vue Framework"
           },
@@ -243,7 +243,6 @@
             "desc": "京东 - Vue 移动端组件库"
           }
         ]
-
       },
       {
         "title": "Angular",

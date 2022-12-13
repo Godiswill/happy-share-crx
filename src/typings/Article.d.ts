@@ -3,4 +3,5 @@ type ArticleInfoType = {
     url: string;
     description: string;
     image?: string;
+    source?: string;
 };

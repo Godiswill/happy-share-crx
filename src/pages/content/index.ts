@@ -10,11 +10,14 @@ const getArticleInfo = (): ArticleInfoType => {
 
     const description = document.querySelector('meta[name=description]')?.getAttribute('content');
 
+    const KMAbstract = document.querySelector('.article-abstract')?.textContent;
+
     return {
         title: ogTitle || title || '',
         url: window.location.href,
-        description: ogDescription || description || '',
+        description: ogDescription || description || KMAbstract || '',
         image: ogImage || '',
+        source: window.location.hostname,
     };
 };
 
@@ -25,7 +28,7 @@ chrome.runtime.onMessage.addListener(
         console.log('[content.js]. Message received1x', msg);
         if (process.env.NODE_ENV === 'development') {
             if (msg.type === 'window.location.reload') {
-                sendResponse('receivedx');
+                sendResponse('received');
                 console.log('current page will reload.');
                 window.location.reload();
             }

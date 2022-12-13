@@ -1,297 +1,179 @@
 [
   {
-    "label": "网络基础",
-    "value": "internet",
+    "label": "计算基础",
+    "value": "计算基础",
+    "_value": "computer",
     "children": [
       {
-        "label": "HTTP",
-        "value": "HTTP"
+        "label": "网络基础/安全",
+        "value": "网络基础/安全",
+        "_value": "HTTP"
       },
       {
-        "label": "DNS",
-        "value": "DNS"
+        "label": "数据结构/算法",
+        "value": "数据结构/算法",
+        "_value": "algorithm"
       },
       {
-        "label": "网络安全",
-        "value": "web_security_knowledge"
+        "label": "浏览器基础",
+        "value": "浏览器基础",
+        "_value": "web_client"
+      },
+      {
+        "label": "性能优化",
+        "value": "性能优化",
+        "_value": "performance"
       }
     ]
   },
   {
     "label": "语言基础",
-    "value": "language",
+    "value": "语言基础",
+    "_value": "language",
     "children": [
       {
-        "label": "HTML",
-        "value": "HTML"
+        "label": "HTML5",
+        "value": "HTML5",
+        "_value": "HTML5"
       },
       {
-        "label": "CSS",
-        "value": "CSS"
+        "label": "CSS3/Less/Sass",
+        "value": "CSS3/Less/Sass",
+        "_value": "CSS"
       },
       {
-        "label": "Javascript",
-        "value": "Javascript"
+        "label": "ES6/TypeScript",
+        "value": "ES6/TypeScript",
+        "_value": "Javascript"
       }
     ]
   },
   {
-    "label": "JS 库",
-    "value": "JS_library",
+    "label": "主流框架",
+    "value": "主流框架",
+    "_value": "JS_library",
     "children": [
       {
         "label": "React",
-        "value": "React"
+        "value": "React",
+        "_value": "React"
       },
       {
         "label": "Vue",
-        "value": "Vue"
-      },
-      {
-        "label": "Angular",
-        "value": "Angular"
+        "value": "Vue",
+        "_value": "Vue"
       }
     ]
   },
   {
-    "label": "CSS 组件库",
-    "value": "CSS_library",
+    "label": "工程构建",
+    "value": "工程构建",
+    "_value": "project",
     "children": [
       {
-        "label": "ant-design",
-        "value": "antd"
+        "label": "打包工具",
+        "value": "打包工具",
+        "_value": "build"
       },
       {
-        "label": "material-ui",
-        "value": "material"
+        "label": "自动化/CI/CD",
+        "value": "自动化/CI/CD",
+        "_value": "auto"
       },
       {
-        "label": "arco-design",
-        "value": "arco-design"
-      },
-      {
-        "label": "element-ui",
-        "value": "element-ui"
-      },
-      {
-        "label": "tailwindcss",
-        "value": "tailwindcss"
+        "label": "代码仓库",
+        "value": "代码仓库",
+        "_value": "depository"
       }
     ]
   },
   {
-    "label": "状态管理",
-    "value": "state",
+    "label": "架构设计",
+    "value": "架构设计",
+    "_value": "architecture",
     "children": [
       {
-        "label": "Redux",
-        "value": "Redux"
+        "label": "微应用/服务",
+        "value": "微应用/服务",
+        "_value": "micro_server"
       },
       {
-        "label": "Mobx",
-        "value": "Mobx"
+        "label": "SEO",
+        "value": "SEO"
       },
       {
-        "label": "Recoil",
-        "value": "Recoil"
+        "label": "方案设计",
+        "value": "方案设计",
+        "_value": "design_pattern"
       },
       {
-        "label": "RxJS",
-        "value": "RxJS"
+        "label": "科技前沿",
+        "value": "科技前沿"
       },
       {
-        "label": "VueX",
-        "value": "VueX"
+        "label": "Web3",
+        "value": "Web3"
       }
     ]
   },
   {
-    "label": "语义增强",
-    "value": "language2",
-    "children": [
-      {
-        "label": "Typescript",
-        "value": "Typescript"
-      },
-      {
-        "label": "Sass",
-        "value": "Sass"
-      },
-      {
-        "label": "Less",
-        "value": "Less"
-      },
-      {
-        "label": "PostCSS",
-        "value": "PostCSS"
-      }
-    ]
-  },
-  {
-    "label": "代码管理",
-    "value": "version_control_systems",
-    "children": [
-      {
-        "label": "Git",
-        "value": "Git"
-      },
-      {
-        "label": "npm",
-        "value": "npm"
-      },
-      {
-        "label": "yarn",
-        "value": "yarn"
-      },
-      {
-        "label": "GitHub",
-        "value": "GitHub"
-      },
-      {
-        "label": "GitLab",
-        "value": "GitLab"
-      }
-    ]
-  },
-  {
-    "label": "构建工具",
-    "value": "build_tools",
-    "children": [
-      {
-        "label": "Webpack",
-        "value": "Webpack"
-      },
-      {
-        "label": "esbuild",
-        "value": "esbuild"
-      },
-      {
-        "label": "Rollup",
-        "value": "Rollup"
-      },
-      {
-        "label": "Parcel",
-        "value": "Parcel"
-      },
-      {
-        "label": "Vite",
-        "value": "Vite"
-      }
-    ]
-  },
-  {
-    "label": "测试套件",
-    "value": "test",
-    "children": [
-      {
-        "label": "Jest",
-        "value": "Jest"
-      },
-      {
-        "label": "esbuild",
-        "value": "esbuild"
-      },
-      {
-        "label": "Rollup",
-        "value": "Rollup"
-      },
-      {
-        "label": "Parcel",
-        "value": "Parcel"
-      },
-      {
-        "label": "Vite",
-        "value": "Vite"
-      }
-    ]
-  },
-  {
-    "label": "移动应用",
-    "value": "mobile_application",
-    "children": [
-      {
-        "label": "ReactNative",
-        "value": "ReactNative"
-      },
-      {
-        "label": "Flutter",
-        "value": "Flutter"
-      },
-      {
-        "label": "小程序",
-        "value": "mini_app"
-      }
-    ]
-  },
-  {
-    "label": "桌面应用",
-    "value": "desk_application",
-    "children": [
-      {
-        "label": "Electron",
-        "value": "Electron"
-      },
-      {
-        "label": "PWA",
-        "value": "PWA"
-      }
-    ]
-  },
-  {
-    "label": "服务端",
-    "value": "back_end",
+    "label": "后端运维",
+    "value": "后端运维",
+    "_value": "back_end",
     "children": [
       {
         "label": "Node",
-        "value": "Node"
-      },
-      {
-        "label": "SQL",
-        "value": "SQL"
-      },
-      {
-        "label": "Java",
-        "value": "Java"
-      },
-      {
-        "label": "Redis",
-        "value": "Redis"
-      }
-    ]
-  },
-  {
-    "label": "运维",
-    "value": "op",
-    "children": [
-      {
-        "label": "Nginx",
-        "value": "Nginx"
+        "value": "Node",
+        "_value": "node"
       },
       {
         "label": "Docker",
-        "value": "Docker"
-      },
-      {
-        "label": "K8S",
-        "value": "K8S"
+        "value": "Docker",
+        "_value": "docker"
       }
     ]
   },
   {
-    "label": "其他",
-    "value": "other",
+    "label": "原生应用",
+    "value": "原生应用",
+    "_value": "application",
     "children": [
       {
-        "label": "WebAssembly",
-        "value": "WebAssembly"
+        "label": "App",
+        "value": "App",
+        "_value": "app"
+      },
+      {
+        "label": "小程序",
+        "value": "小程序",
+        "_value": "mini-program"
+      },
+      {
+        "label": "桌面软件",
+        "value": "桌面软件",
+        "_value": "desk-program"
+      }
+    ]
+  },
+  {
+    "label": "经验总结",
+    "value": "经验总结",
+    "_value": "other",
+    "children": [
+      {
+        "label": "职业成长",
+        "value": "职业成长",
+        "_value": "WebAssembly"
+      },
+      {
+        "label": "管理建设",
+        "value": "管理建设",
+        "_value": "inspiration"
       },
       {
         "label": "人生感悟",
-        "value": "inspiration"
-      },
-      {
-        "label": "杂谈",
-        "value": "unknown"
+        "value": "人生感悟",
+        "_value": "unknown"
       }
     ]
   }
